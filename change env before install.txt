@@ -1,0 +1,11 @@
+1. change the env
+
+conda activate nldepython2
+
+2. deactivate
+
+conda deactivate
+
+3. no ply, install it
+
+pip install ply

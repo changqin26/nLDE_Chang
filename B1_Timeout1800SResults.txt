@@ -1,0 +1,65 @@
+qin1@IPA-WN-023IT164:/mnt/d/405q/github/nlde$ ./run-query.sh
+Running query Benchmark1Separate/query1.rq (iteration 1)
+Running query Benchmark1Separate/query1.rq (iteration 2)
+Error: Failed to execute query Benchmark1Separate/query1.rq (iteration 2)
+Running query Benchmark1Separate/query10.rq (iteration 1)
+Running query Benchmark1Separate/query10.rq (iteration 2)
+Error: Failed to execute query Benchmark1Separate/query10.rq (iteration 2)
+Running query Benchmark1Separate/query11.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query11.rq (iteration 1)
+Running query Benchmark1Separate/query12.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query12.rq (iteration 1)
+Running query Benchmark1Separate/query13.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query13.rq (iteration 1)
+Running query Benchmark1Separate/query14.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query14.rq (iteration 1)
+Running query Benchmark1Separate/query15.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query15.rq (iteration 1)
+Running query Benchmark1Separate/query16.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query16.rq (iteration 1)
+Running query Benchmark1Separate/query17.rq (iteration 1)
+Running query Benchmark1Separate/query17.rq (iteration 2)
+Running query Benchmark1Separate/query18.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query18.rq (iteration 1)
+Running query Benchmark1Separate/query19.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query19.rq (iteration 1)
+Running query Benchmark1Separate/query2.rq (iteration 1)
+Running query Benchmark1Separate/query2.rq (iteration 2)
+Error: Failed to execute query Benchmark1Separate/query2.rq (iteration 2)
+Running query Benchmark1Separate/query20.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query20.rq (iteration 1)
+Running query Benchmark1Separate/query3.rq (iteration 1)
+Process Process-4:1:2:1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/nlde/engine/contactsource.py", line 140, in contact_ldf_server
+    myres = eval(res)
+  File "<string>", line 344, in <module>
+NameError: name 'null' is not defined
+Error: Failed to execute query Benchmark1Separate/query3.rq (iteration 1)
+Running query Benchmark1Separate/query4.rq (iteration 1)
+Process Process-3:2:1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 267, in _bootstrap
+    self.run()
+  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/nlde/engine/contactsource.py", line 140, in contact_ldf_server
+    myres = eval(res)
+  File "<string>", line 344, in <module>
+NameError: name 'null' is not defined
+Error: Failed to execute query Benchmark1Separate/query4.rq (iteration 1)
+Running query Benchmark1Separate/query5.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query5.rq (iteration 1)
+Running query Benchmark1Separate/query6.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query6.rq (iteration 1)
+Running query Benchmark1Separate/query7.rq (iteration 1)
+Running query Benchmark1Separate/query7.rq (iteration 2)
+Running query Benchmark1Separate/query8.rq (iteration 1)
+Error: Failed to execute query Benchmark1Separate/query8.rq (iteration 1)
+Running query Benchmark1Separate/query9.rq (iteration 1)
+Running query Benchmark1Separate/query9.rq (iteration 2)
+Error: Failed to execute query Benchmark1Separate/query9.rq (iteration 2)
