@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nlde
+Version: 0.1
+Summary: An Adaptive SPARQL Query Engine over RDF Data via Triple Pattern Fragments
+Home-page: https://github.com/nlde/nlde
+Author: Maribel Acosta
+Author-email: maribel.acosta@kit.edu
+License: GNU/GPL v2
+Requires: ply

@@ -1,0 +1,9 @@
+query12.rq	None	1800.00066185	0	
+query12.rq	7.74415206909	1800.00019407	391	
+query12.rq	9.2991130352	1800.0003171	48	
+query12.rq	7.75893998146	28.0312209129	3607	
+query12.rq	9.48303794861	1800.000386	48	
+query12.rq	None	1800.00058198	0	
+
+qin1@IPA-WN-023IT164:/mnt/d/405q/Github/nlde$ python2 nlde.py -s http://localhost:5000/dbpedia -f Benchmark1Separate/query12.rq -r n -t 180 -p  IncludingNLJ
+query12.rq      8.11952900887   36.6300361156   3607
